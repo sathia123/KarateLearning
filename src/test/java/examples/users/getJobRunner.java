@@ -6,7 +6,7 @@ public class getJobRunner {
 
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("hooks").relativeTo(getClass());
+        return Karate.run("getJoby").relativeTo(getClass());
     }    
 
 }

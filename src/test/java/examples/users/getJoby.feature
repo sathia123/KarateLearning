@@ -1,7 +1,7 @@
 Feature: To test the get end point of the application
 
   Background: Setup the base path
-    Given url 'http://localhost:9191'
+    Given url apiUrl
     And print '*******This is the background******'
 
   
